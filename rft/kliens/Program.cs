@@ -35,7 +35,7 @@ namespace Client_Basic
                 stream.Write(data, 0, data.Length);
                 Console.WriteLine("Küldött: {0}", message);
                 if (stream.CanRead)
-                {
+                {asd
                     data = new Byte[256];
                     String responseData = String.Empty;
                     Int32 bytes = stream.Read(data, 0, data.Length);
