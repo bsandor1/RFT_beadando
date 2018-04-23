@@ -2,11 +2,9 @@
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using System.Collections.Generic;
-using ClassLibrary1;
-
+using DLL;
 
 namespace szerver
 {
@@ -72,7 +70,7 @@ namespace szerver
                 lock (Listerner.running_threads)
                 {
                     Thread thisss = Thread.CurrentThread;
-                    int i = Server_Basic.Listerner.running_threads.IndexOf(thisss);
+                    int i = szerver.Listerner.running_threads.IndexOf(thisss);
                     if (i != -1) Listerner.running_threads.RemoveAt(i);
                     Console.WriteLine("Lekapcsolódva");
 
