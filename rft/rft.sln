@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szerver", "szerver\szerver.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{50CEA353-72B3-4D93-B5E6-A1C352084BEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termelo_fogyaszto", "Termelo_fogyaszto\Termelo_fogyaszto.csproj", "{866C80A2-F487-4C29-8705-4EBD2A1C5599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{50CEA353-72B3-4D93-B5E6-A1C352084BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CEA353-72B3-4D93-B5E6-A1C352084BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CEA353-72B3-4D93-B5E6-A1C352084BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866C80A2-F487-4C29-8705-4EBD2A1C5599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866C80A2-F487-4C29-8705-4EBD2A1C5599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866C80A2-F487-4C29-8705-4EBD2A1C5599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866C80A2-F487-4C29-8705-4EBD2A1C5599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
